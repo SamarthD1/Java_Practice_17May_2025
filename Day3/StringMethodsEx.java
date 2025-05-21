@@ -22,7 +22,7 @@ public class StringMethodsEx {
             System.out.println("Invalid index!");
         }
 
-        scanner.nextLine(); // Clear input buffer
+        scanner.nextLine(); 
 
         // 3. substring()
         System.out.print("Enter starting index for substring: ");
@@ -36,7 +36,7 @@ public class StringMethodsEx {
             System.out.println("Invalid range for substring.");
         }
 
-        scanner.nextLine(); // Clear buffer
+        scanner.nextLine(); 
 
         // 4. equals()
         System.out.print("Enter another string to compare: ");
