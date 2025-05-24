@@ -1,7 +1,7 @@
 package Day4;
 
-//class named Car
-class Car {
+//class named Car7
+class Car7 {
     // Fields (also called attributes or properties)
     String brand;
     String color;
@@ -23,7 +23,7 @@ class Car {
 public class MainEx {
     public static void main(String[] args) {
         //object of the Car class
-        Car car1 = new Car();
+        Car7 car1 = new Car7();
 
         // Set values to the object's fields
         car1.brand = "Toyota";
@@ -35,7 +35,7 @@ public class MainEx {
         car1.displayDetails();
 
         // Created another object
-        Car car2 = new Car();
+        Car7 car2 = new Car7();
         car2.brand = "Honda";
         car2.color = "Blue";
         car2.year = 2022;
